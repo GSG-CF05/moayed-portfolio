@@ -3,89 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <div><h2>PORTFOLIO</h2></div>
+      <div class="headerTitel"><h2>PORTFOLIO.</h2></div>
     </header>
 
     <main>
       <section id="info">
-        <div>
-          <h3>MY NAME IS</h3>
+        <div class="name">
+          <h4>MY NAME IS</h4>
           <h3>MOAYED NABAHIN</h3>
-          <div><h4>I'M A WEB DIVELOPER</h4></div>
+          <div class=" develop "><h5>I'M A WEB DIVELOPER</h5></div>
         </div>
       </section>
       <article id="about_me">
         <figure>
-          <img src="" alt="" />
+          <img  src="./assets/272182385_625998535333855_2702624911379657724_n.jpg" alt="" width="300" height="300" />
         </figure>
-
-        <h4>Who am i</h4>
-        <h2>hello</h2>
+         
+        <div class="detils">
+        <h5>Who am i</h5>
+        <h2>HELLO</h2>
 
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, fugit.
-          Neque error dicta ducimus nam. Beatae, dolorum excepturi
+          Moayed AL-Nabahin. I am a web developer under construction.I am 19 and
+          yes I am a university student, I study computer science, I am
+          currently learning web development with Gaza sky geeks and they asked
+          me to design a portofilo.
         </p>
+    </br>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, fugit.
-          Neque error dicta ducimus nam. Beatae, dolorum excepturi
+          I'm here to show you a simple design for my portofilo, I designed it
+          using my HTML and CSS skills and the skills I learned from Gaza Sky
+          Geeks, I hope you like the design
         </p>
+        </div>
       </article>
       <section id="skills">
-        <h2>My Skills</h2>
-        <div id="skill_cards">
-          <div class="skill_card">
-            <h3>Team Work</h3>
-            <p>
-              Talent wins games, but teamwork and intelligence wins
-              championships.
-            </p>
-          </div>
+        <h2 class="my-skill">My Skills</h2>
 
-          <div class="skill_card">
-            <h3>Team Work</h3>
-            <p>
-              Talent wins games, but teamwork and intelligence wins
-              championships.
-            </p>
-          </div>
-
-          <div class="skill_card">
-            <h3>Team Work</h3>
-            <p>
-              Talent wins games, but teamwork and intelligence wins
-              championships.
-            </p>
-          </div>
-
-          <div class="skill_card">
-            <h3>Team Work</h3>
-            <p>
-              Talent wins games, but teamwork and intelligence wins
-              championships.
-            </p>
-          </div>
+        <div class="skill_card">
+          <img
+            class="img-card"
+            src="./assets/High technical skills.png"
+            alt=""
+          />
+          <h3>High technical skills</h3>
+          <p>
+            Talent wins games, but teamwork and intelligence wins championships.
+          </p>
         </div>
+
+        <div class="skill_card">
+          <img class="img-card" src="./assets/time management.png" alt="" />
+          <h3>Time Management</h3>
+          <p>
+            Talent wins games, but teamwork and intelligence wins championships.
+          </p>
+        </div>
+
+        <div class="skill_card">
+          <img class="img-card" src="./assets/teamwork.png" alt="" />
+          <h3>Team Work</h3>
+          <p>
+            Talent wins games, but teamwork and intelligence wins championships.
+          </p>
+        </div>
+
+        <div class="skill_card">
+          <img class="img-card" src="./assets/work under pressure.png" alt="" />
+          <h3>work under pressure</h3>
+          <p>
+            Talent wins games, but teamwork and intelligence wins championships.
+          </p>
+        </div>
+        <div class="skill_card">
+            <img class="img-card" src="./assets/Problem solving ability.png" alt="" />
+            <h3>Problem solving ability</h3>
+            <p>
+              Talent wins games, but teamwork and intelligence wins championships.
+            </p>
+          </div>
       </section>
     </main>
 
-    <footer>
-      <p>Contact Me :</p>
+    <footer id="contact">  
+      <div class="social">
+        <a href="https://github.com/moayed-nabahin"
+          ><img class="icon" src="./assets/github.png" alt="" 
+       /></a>
 
-      <address>
-        <a href="mailto:m.a.sn14126@gmail.com">m.a.sn14126@gmail.com</a><br />
-        <a href="tel:+972598109533">+972598109533</a>
-      </address>
+        <a href="https://www.facebook.com/moayed.nabahen.1/"
+          ><img class="icon" src="./assets/facebook.png" alt=""
+        /></a>
+    
+        <a href="https://www.instagram.com/moayed.ahmed20/"
+          ><img class="icon" src="./assets/instagram.png " alt=""
+        /></a>
 
-      <div>
-        <a href="https://github.com/moayed-nabahin" ><img src="./assets/github.png" alt=""> </a>
-        <a href="https://www.facebook.com/moayed.nabahen.1/"><img src="./assets/facebook.png" alt=""></a>
+        <a href="mailto:m.a.s.n14126@gmail.com"
+          ><img class="icon" src="./assets/gmail.png" alt=""
+        /></a>
+
+        
       </div>
     </footer>
   </body>
