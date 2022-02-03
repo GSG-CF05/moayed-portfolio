@@ -1,4 +1,26 @@
-*{
-    margin: o;
-    padding: 0;
+* {
+  margin: 0;
+  font-family: Roboto;
 }
+
+body {
+  padding: 20px 50px 20px 50px;
+  background-image: linear-gradient(to right, rgb(194, 190, 190), rgb(171, 176, 177));
+}
+
+
+.headerTitel {
+  background-color: rgb(24, 20, 20);
+  color: #fff;
+  display: flex;
+  height: 60px;
+  margin-bottom: 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  box-shadow: 5px 5px rgb(138, 135, 135);
+}
+.headerTitel h2 {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
