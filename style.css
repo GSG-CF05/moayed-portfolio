@@ -130,3 +130,20 @@ main {
   .img-card {
     width: 100%;
   }
+
+  #contact {
+    background-color: rgb(24, 20, 20);
+    /* text-align: center; */
+    /* padding-top: 5%; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+    
+  .social a{
+      padding-right: 10px;
+  }
+  
